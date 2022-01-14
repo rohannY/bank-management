@@ -284,8 +284,8 @@ Connection con1;
             String acctype =jComboBox1.getSelectedItem().toString();         
             String balance =txtbal.getText();
            
-            Class.forName("com.mysql.jdbc.Driver");
-            con1 = DriverManager.getConnection("jdbc:mysql://localhost/customer","root","");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con1 = DriverManager.getConnection("jdbc:mysql://localhost/customer","root","rohan");
             insert = con1.prepareStatement("insert into account(acc_id,cust_id,acc_type,balance)values(?,?,?,?)");
             insert.setString(1,id);
             insert.setString(2,custid);

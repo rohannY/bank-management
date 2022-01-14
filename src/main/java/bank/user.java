@@ -346,7 +346,7 @@ public class user extends javax.swing.JFrame {
            
             
             Class.forName("com.mysql.cj.jdbc.Driver");
-                con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","rohan");
+            con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/customer","root","rohan");
             insert = con1.prepareStatement("update user set name= ? where id= ?");
               insert.setString(1,name);
       
