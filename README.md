@@ -18,7 +18,7 @@ Bank Management System made with Java Swing
 - Get the Sql file from ```src/database/sanbank.sql```
 - Make a Database/Schema by the name ```customer```
 - Run all the commands from that Sql file
-- Change the password field by password of your own mysql client, Note: There are many password fields some files even contain multiple of them, so chcek that out.
+- Change the password field by password of your own mysql client, Note: There are many password fields some files even contain multiple of them, so check that out.
 - Ur ready to run the files
 - Username, Password and all related information is already in ur database so just run ```select``` command on ```user``` table and retrieve those.
 
