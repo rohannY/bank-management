@@ -12,7 +12,7 @@ Bank Management System made with Java Swing
 - Account to Account to Transaction
 - Search the Account balance
 
-## Steps (Plz read this i wont be helping everyone personally)
+## Steps to run
 
 - Download this project and run it using any ide 
 - Get the Sql file from ```src/database/sanbank.sql```
